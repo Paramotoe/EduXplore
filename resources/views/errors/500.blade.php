@@ -1,0 +1,6 @@
+@extends('errors.layout')
+@section('title', 'Kesalahan Sistem')
+@section('ikon', '🛠️')
+@section('kode', '500')
+@section('judul', 'Terjadi Kesalahan Sistem')
+@section('pesan', 'Sistem mengalami gangguan internal. Silakan coba beberapa saat lagi atau hubungi administrator sekolah.')

@@ -1,0 +1,6 @@
+@extends('errors.layout')
+@section('title', 'Sesi Kedaluwarsa')
+@section('ikon', '⏱️')
+@section('kode', '419')
+@section('judul', 'Sesi Anda Kedaluwarsa')
+@section('pesan', 'Token keamanan CSRF sudah tidak berlaku. Silakan muat ulang halaman dan kirim ulang formulir.')

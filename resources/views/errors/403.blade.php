@@ -1,0 +1,6 @@
+@extends('errors.layout')
+@section('title', 'Akses Ditolak')
+@section('ikon', '🔒')
+@section('kode', '403')
+@section('judul', 'Akses Ditolak')
+@section('pesan', $exception?->getMessage() ?: 'Peran akun Anda tidak memiliki wewenang untuk membuka halaman ini. Percobaan akses tercatat pada jejak audit sistem.')
