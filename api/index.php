@@ -1,6 +1,5 @@
 ";
-    echo "💥 LARAVEL CRASH ON BOOT:";
-    echo "Pesan Error: " . htmlspecialchars($e->getMessage()) . "";
-    echo "File: " . htmlspecialchars($e->getFile()) . " (Baris " . $e->getLine() . ")";
-    echo "";
+    echo "Pesan  : " . $e->getMessage() . "";
+    echo "File   : " . $e->getFile() . "";
+    echo "Baris  : " . $e->getLine() . "";
 }
