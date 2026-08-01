@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "php",
+      "args": [
+        "artisan",
+        "mcp:start",
+        "boost"
+      ],
+      "cwd": "C:\\Users\\LEGION\\Documents\\Kuliah\\PENGEMBANGAN APLIKASI BERBASIS WEB\\eduxplore"
+    }
+  }
+}
