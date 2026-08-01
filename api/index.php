@@ -1,6 +1,4 @@
-';
-    echo '💥 ERROR ASLI TERDETEKSI:';
-    echo 'Penyebab: ' . htmlspecialchars($e->getMessage()) . '';
-    echo 'File: ' . htmlspecialchars($e->getFile()) . ' (Baris ' . $e->getLine() . ')';
-    echo '';
+getMessage() . "\n";
+    echo "File   : " . $e->getFile() . "\n";
+    echo "Baris  : " . $e->getLine() . "\n";
 }
